@@ -1,21 +1,34 @@
 import './App.css'
 
 function App() {
+  var nome = "Cássio";
+
+  const time =[
+    "Corinthians",
+    "<NAME>",
+    "Palmeiras",
+    "Santos",
+    "Grêmio",
+    "Flamengo",
+    "Vasco da gama",
+    "Sport Recife",
+    "Chapecoense"
+  ];
 
   return (
     // FRAGMENT
     <> 
-      <h1>React App</h1>
-      <div>
-        <ul>
-          <li>FIAP</li>
-          <li>Google</li>
-          <li>Github</li>
-          <li>Twitter</li>
-          <li>Reddit</li>
-          <li>Teste2</li>
-        </ul>
-      </div>
+      <h1>React + Vite</h1>
+
+      <h2>RM98760</h2>
+
+      <p>Melhor goleiro: {nome} </p>
+
+      <ul>
+        {time.map((item, indice)=>
+          <li key={indice}>{`${item} - ${item}`}</li>
+        )}
+      </ul>
     </>
   )
 }
