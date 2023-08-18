@@ -13,6 +13,7 @@ function App() {
           <li>Github</li>
           <li>Twitter</li>
           <li>Reddit</li>
+          <li>Teste2</li>
         </ul>
       </div>
     </>
