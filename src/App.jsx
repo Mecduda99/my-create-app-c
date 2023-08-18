@@ -22,7 +22,7 @@ function App() {
 
       <h2>RM98760</h2>
 
-      <p>Melhor goleiro: {nome} </p>
+      <p className='text'>Melhor goleiro: {nome} </p>
 
       <ul>
         {time.map((item, indice)=>
